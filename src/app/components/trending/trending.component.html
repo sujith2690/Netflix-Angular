@@ -1,0 +1,12 @@
+<div class="contain mt-3 p-4" >
+    <div class="row" *ngFor="let item of MovieDetails">
+        <h5 class="text-white">{{item.category}}</h5>
+        <div class="rowPoster mt-3 p-2" >
+            <ng-container *ngFor="let item of item.movies">
+                <img src="https://image.tmdb.org/t/p/original/{{ item.poster_path }}" class="rowImg largePoster"
+                [routerLink]="['movie',item.id]"
+                >
+            </ng-container>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    color: #fff;
+    font-weight: bold;
+}
+p{
+    color: #fff;
+}
+a{
+    background-color: #E50914;
+    color: #fff;
+    text-decoration: none;
+    /* padding: 10px; */
+    border-radius: 10px;
+}
+a:hover{
+    background-color: #E50914;
+    color: #fff;
+    border: 2px solid #fff;
+}
